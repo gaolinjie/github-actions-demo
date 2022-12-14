@@ -8,4 +8,4 @@ jobs:
     steps:
       - name: Call our API route
         run: |
-          curl --url 'https://github.com'
+          curl --url 'https://awesomely.vercel.app/api/hello'
